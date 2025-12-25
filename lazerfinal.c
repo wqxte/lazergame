@@ -3,8 +3,8 @@
 #include <time.h>
 // time.h library is used in this code to help placing walls randomly.
 
-static int ROW = 15;
-static int COL= 15;
+static const int ROW = 15;
+static const int COL = 15;
 
 void place_random_walls(int count);
 int play_game(int level);
