@@ -3,8 +3,8 @@
 #include <time.h>
 // time.h library is used in this code to help placing walls randomly.
 
-#define ROW 15
-#define COL 15
+static int ROW = 15;
+static int COL= 15;
 // Game matrix is changeable by changing the values of #define.
 
 void place_random_walls(int count);
