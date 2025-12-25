@@ -5,7 +5,6 @@
 
 static int ROW = 15;
 static int COL= 15;
-// Game matrix is changeable by changing the values of #define.
 
 void place_random_walls(int count);
 int play_game(int level);
